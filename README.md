@@ -26,7 +26,7 @@ une 项目内部封装关于go-zero相关的工具
 ## 安装
 
 ```shell
-GOPRIVATE=git.unemeta.com go install github.com/ArthurQiuys/une@latest
+go install github.com/ArthurQiuys/une@latest
 ```
 
 ## 更新配置和缓存
