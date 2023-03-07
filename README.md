@@ -145,14 +145,14 @@ modules = [
 [db.test]
 common = "{{key:key.}}{{key:3306}}"
 modules = [
-    "{{console}}{{unemeta_console}}{{key:key.}}{{key:3306}}",
-	"{{user}}{{unemeta_users}}{{key:key.}}{{key:3306}}",
-	"{{market}}{{unemeta_market}}{{key:key.}}{{key:3306}}",
-	"{{market}}{{unemeta_market}}{{key:key.}}{{key:3306}}"
+    "{{console}}{{unemeta_console}}{{key:key.}}{{host:3306}}",
+	"{{user}}{{unemeta_users}}{{key:key.}}{{host:3306}}",
+	"{{market}}{{unemeta_market}}{{key:key.}}{{host:3306}}",
+	"{{market}}{{unemeta_market}}{{key:key.}}{{host:3306}}"
 ]
 
 [y_api]
-server = "http://35.209.215.76:40001"
+server = "https://host:port"
 modules = [
     "{{console}}{{key}}",
 	"{{user}}{{key}}",
